@@ -59,5 +59,4 @@ export const signOut = (setValue) => {
 
 export const db = firebase.database();
 export const firestore = firebase.firestore();
-export const key = "Liars_Dice";
 export default firestore;
