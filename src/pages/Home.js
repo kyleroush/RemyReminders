@@ -9,7 +9,7 @@ class Home extends React.Component {
     return (
       <div>
         <Typography>
-          Remys favorite page
+          Remys favorite page!
         </Typography>
       </div>
     );
