@@ -23,6 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "predeploy-github": "npm run build",
     "deploy-github": "gh-pages -d build",
     "predeploy-firebase": "npm run build",
