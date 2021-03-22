@@ -3,13 +3,12 @@ import NavBar from './navBar';
 import Home from './pages/Home';
 import NotFound from './pages/NotFound';
 import Dashboard from './pages/dashboards/Dashboard';
-import {firestore, auth} from './firestore';
+import { auth } from './firestore';
 
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 import Team from './pages/teams/Team';
 class App extends React.Component {

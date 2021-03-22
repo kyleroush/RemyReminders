@@ -5,10 +5,9 @@ import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import MenuItem from '@material-ui/core/MenuItem';
 import Menu from '@material-ui/core/Menu';
-import MoreIcon from '@material-ui/icons/MoreVert';
-import { TextField, Divider, Button, Avatar } from '@material-ui/core';
+import { Button, Avatar } from '@material-ui/core';
 import AddIcon from '@material-ui/icons/Add';
-import {signIn, signOut, auth} from './firestore';
+import {signIn, signOut} from './firestore';
 import PopupState, { bindTrigger, bindMenu } from 'material-ui-popup-state';
 
 class NavBar extends React.Component {

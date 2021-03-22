@@ -8,9 +8,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
-  useRouteMatch,
-  useParams
 } from "react-router-dom";
 import Dashboard from '../dashboards/Dashboard';
 import Task from '../tasks/Task';
